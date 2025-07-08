@@ -8,25 +8,25 @@ No endless scrolling, no overwhelming feeds – just one perfectly picked photo,
 
 ## Table of Contents
 
-  * [Features](https://www.google.com/search?q=%23features)
-  * [Design Principles & Responsive Layout](https://www.google.com/search?q=%23design-principles--responsive-layout)
-  * [Detailed UI Breakdown](https://www.google.com/search?q=%23detailed-ui-breakdown)
-      * [1. Header](https://www.google.com/search?q=%231-header)
-      * [2. Content Area](https://www.google.com/search?q=%232-content-area)
-      * [3. Comment Input Field](https://www.google.com/search?q=%233-comment-input-field)
-      * [4. Comments List](https://www.google.com/search?q=%234-comments-list)
-      * [5. Footer](https://www.google.com/search?q=%235-footer)
-  * [Proposed Technology Stack](https://www.google.com/search?q=%23proposed-technology-stack)
-  * [Getting Started](https://www.google.com/search?q=%23getting-started)
-      * [Prerequisites](https://www.google.com/search?q=%23prerequisites)
-      * [Installation](https://www.google.com/search?q=%23installation)
-      * [Running Locally](https://www.google.com/search?q=%23running-locally)
-  * [Usage](https://www.google.com/search?q=%23usage)
-  * [User Interaction & Psychology Behind It](https://www.google.com/search?q=%23user-interaction--psychology-behind-it)
-  * [Contribution](https://www.google.com/search?q=%23contribution)
-  * [Future Enhancements](https://www.google.com/search?q=%23future-enhancements)
-  * [Leveraging Gemini CLI for Development](https://www.google.com/search?q=%23leveraging-gemini-cli-for-development)
-  * [License](https://www.google.com/search?q=%23license)
+  * [Features]
+  * [Design Principles & Responsive Layout]
+  * [Detailed UI Breakdown]
+      * [1. Header]
+      * [2. Content Area]
+      * [3. Comment Input Field]
+      * [4. Comments List]
+      * [5. Footer]
+  * [Proposed Technology Stack]
+  * [Getting Started]
+      * [Prerequisites]
+      * [Installation]
+      * [Running Locally]
+  * [Usage]
+  * [User Interaction & Psychology Behind It]
+  * [Contribution]
+  * [Future Enhancements]
+  * [Leveraging Gemini CLI for Development]
+  * [License]
 
 -----
 
@@ -88,10 +88,10 @@ The first landing page will be structured into five distinct parts, presented ve
   * **Interaction:**
       * When clicked, an **emoji keyboard** should be shown by default (simulated or actual, depending on platform).
       * A **send button** (upper arrow icon) will appear at the end of the input field.
-          * **Button Style:** Black background, white arrow icon.
+          * **Button Style:** Black background, white arrow icon. (Disalbed: light-gray)
   * **Character Limit:**
       * Max characters: `120` (suggested based on psychological comfort for concise expression, allowing enough room for a reaction without being overwhelming).
-      * As the user types, a **countdown** of remaining characters will be shown.
+      * As the user types more than 80% of max characters, a **countdown** of remaining characters will be shown.
   * **Submission Animation:**
       * Upon comment submission, the input field will visually transition.
       * The submitted comment will appear at the **end of the comments list** (\#4).
@@ -132,8 +132,6 @@ The first landing page will be structured into five distinct parts, presented ve
 -----
 
 ## Proposed Technology Stack
-
-As your CTO, I reaffirm the following modern and efficient stack, now with a stronger emphasis on frontend capabilities for the rich UI interactions:
 
   * **Frontend:** **React.js** (or Vue.js) for a dynamic and responsive user interface, combined with **HTML5**, **CSS3** (with **Tailwind CSS** for rapid styling), and **JavaScript**.
       * **Reasoning:** Essential for handling complex UI states, animations, and dynamic content updates (comments list, character countdown, accordion). Tailwind CSS will streamline the mobile-first styling.
@@ -351,3 +349,5 @@ Remember, Gemini CLI is a powerful assistant, not a replacement for understandin
 This project is open-sourced under the MIT License. See the `LICENSE` file for more details.
 
 -----
+
+prototype: [base44](https://app--caaaaaaaaat-e0371f91.base44.app/)
