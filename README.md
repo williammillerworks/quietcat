@@ -246,22 +246,7 @@ The interaction design for **caaaaaaaaat** is intentionally minimalist and thoug
 
 -----
 
-## Contribution
-
-We welcome contributions to the **caaaaaaaaat** project\! If you'd like to contribute, please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/AmazingFeature`).
-3.  Make your changes.
-4.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-5.  Push to the branch (`git push origin feature/AmazingFeature`).
-6.  Open a Pull Request.
-
------
-
 ## Future Enhancements
-
-As your CTO, I'm always thinking ahead\! Here are some potential future enhancements for **caaaaaaaaat** and its sister applications:
 
   * **Operator Dashboard:** A secure interface for the operator to easily upload daily content, view submitted content, and manage comments.
   * **Basic Analytics:** Track popular content, daily user engagement, and voting trends.
@@ -273,76 +258,6 @@ As your CTO, I'm always thinking ahead\! Here are some potential future enhancem
 
 -----
 
-## Leveraging Gemini CLI for Development
-
-As your AI co-founder and CTO, I recommend integrating the **Gemini CLI** into your development workflow. While Gemini CLI isn't a tool to *build* the entire web service in a single command, it's an incredibly powerful **AI assistant** that can significantly boost your productivity and help you with various development tasks.
-
-Here's how you can use it:
-
-1.  **Code Generation & Boilerplate:**
-
-      * Need a basic React component structure for a comment item with an accordion? Ask Gemini.
-      * Want a simple Express route setup for handling comment submissions or content uploads? Describe it to Gemini.
-      * It can generate snippets for database interactions (e.g., Mongoose schemas for comments, MongoDB queries for fetching daily content) based on your descriptions.
-
-    *Example Prompt:*
-
-    ```bash
-    gemini "create a basic react functional component for a comment item with an auto-generated cat image, comment text, and a like button, and also show id, time, like count in an accordion style when clicked"
-    ```
-
-2.  **Debugging & Error Resolution:**
-
-      * Paste error messages from your console into Gemini CLI.
-      * Describe unexpected behavior in your code, especially with animations or dynamic UI updates. Gemini can often pinpoint issues, suggest fixes, or explain the underlying cause.
-
-    *Example Prompt:*
-
-    ```bash
-    gemini "My comment submission animation isn't smooth in React. The new comment just pops in. How can I make it a smooth scroll and fade-in effect?"
-    ```
-
-3.  **Refactoring & Code Improvement:**
-
-      * Ask Gemini to review a function for potential optimizations or clearer syntax, especially for frontend logic or API handlers.
-      * Get suggestions on improving code readability or adhering to best practices for responsive design.
-
-    *Example Prompt:*
-
-    ```bash
-    gemini "Refactor this CSS to use Tailwind classes for a mobile-first approach, ensuring the max-width of 480px for the main content area: [paste your CSS]"
-    ```
-
-4.  **Learning & Explanations:**
-
-      * Unsure about a specific API, library function, or design pattern (e.g., how to implement a virtual emoji keyboard, or handling file uploads in Express)? Ask Gemini for explanations and examples.
-      * Learn new concepts or get quick refreshers without leaving your terminal.
-
-    *Example Prompt:*
-
-    ```bash
-    gemini "Explain how to handle image and video file uploads securely in Node.js with Express and store them in Google Cloud Storage."
-    ```
-
-5.  **Deployment Assistance:**
-
-      * While you'll use `gcloud` or `vercel` CLIs for actual deployment, Gemini can help you draft deployment scripts, troubleshoot configuration issues, or understand cloud service concepts related to serving media content.
-
-    *Example Prompt:*
-
-    ```bash
-    gemini "How do I configure Vercel to deploy a React app that connects to a Node.js Express backend deployed on Render, and ensure CORS is handled correctly?"
-    ```
-
-**To get started with Gemini CLI:**
-
-1.  **Install it:** Follow the official instructions to install the Gemini CLI from Google AI's documentation or its GitHub repository.
-2.  **Authenticate:** Configure your Google Cloud credentials to allow the CLI to access Gemini.
-3.  **Integrate:** Simply type `gemini "your prompt here"` in your terminal to get AI-powered assistance during your development process.
-
-Remember, Gemini CLI is a powerful assistant, not a replacement for understanding your code. Use it to accelerate your development, learn, and debug more efficiently\!
-
------
 
 ## License
 
